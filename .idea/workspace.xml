@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d714897a-f777-4b27-a9e6-d2f5716ac631" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ps3l2znSFcoZ8TMWFQgJJyGbsy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Tariff stroll" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ramya_python_workspace\supply_chain" />
+      <recent name="D:\python_project\supply_chain\assests\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="supply_chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Python\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d714897a-f777-4b27-a9e6-d2f5716ac631" name="Default Changelist" comment="" />
+      <created>1614947311646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614947311646</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615867319377">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1615867319377" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1615958210945">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1615958210945" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1615906168301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1615906168301" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1615906168301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1615906168301" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1615906168301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1615906168301" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1615906168301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1615906168301" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1615867069339">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1615867069339" />
+  </component>
+</project>

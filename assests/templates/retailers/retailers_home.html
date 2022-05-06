@@ -1,0 +1,383 @@
+<!--A Design by W3layouts
+   Author: W3layout
+   Author URL: http://w3layouts.com
+   License: Creative Commons Attribution 3.0 Unported
+   License URL: http://creativecommons.org/licenses/by/3.0/
+   -->
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>supply chain</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Leccy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+       {% load static %}
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!-- For Clients slider -->
+      <link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="all" />
+      <!-- //For clients slider -->
+      <link href="{% static 'css/lsb.css' %}" rel="stylesheet" type="text/css">
+      <!--gallery lsb lightbox-->
+      <!--stylesheets-->
+      <link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+
+       <style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:white;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+   </head>
+   <body>
+   <h1 style="text-align:center;font-weight:bold;line-height:60px;">A Cooperative Distributed Model Predictive Control Approach to Supply Chain Management</h1>
+      <div class="header-outs" id="home">
+         <div class="header-bar">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav ">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'retailers_home' %}">Search Product <span class="sr-only">(current)</span></a>
+                     </li>
+                       <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'rview_demand' %}">View Demand Product<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="{% url 'retailers_login' %}" class="nav-link ">Logout</a>
+                     </li>
+
+                  </ul>
+               </div>
+            </nav>
+
+         </div>
+         <!-- //Navigation -->
+         <!-- Slideshow 4 -->
+
+         <div class="clearfix"></div>
+      </div>
+
+      <div class="contact" id="contact">
+         <div class="container"><br><br>
+            <h3 class="title clr" style="color:#ffc107;font-weight:bold;">SEARCH PRODUCT</h3>
+            <div class=" contact-form">
+               <form  method="POST" >
+                  {% csrf_token %}
+                  <div class="row contact-bothside-agileinfo">
+                     <div class="col-md-6 col-sm-6 col-xs-6 form-right form-left">
+                         <label style="color:white;font-weight:bold;">Vehicle Type</label>
+
+                        <select name="vehicle_type">
+                           <option>Select Vehicle Type</option>
+                           <option value="car">Car</option>
+                           <option value="three_wheeler">Three Wheeler</option>
+                           <option value="two_wheeler">Two Wheeler</option>
+                        </select>
+                     </div>
+
+                     <div class="col-md-6 col-sm-6 col-xs-6 form-right ">
+                       <label style="color:white;font-weight:bold;">Brand Name</label>
+
+                        <select name="brand_name">
+                            <option>Select Brand Name</option>
+                            <option value="bajaj">Bajaj</option>
+                            <option value="honda">Honda</option>
+                            <option value="royal_enfield">Royal Enfield</option>
+                            <option value="yamaha">Yamaha</option>
+                            <option value="hyundai">Hyundai</option>
+                           <option value="tvs">Tvs</option>
+                        </select>
+                     </div>
+                     <div class="col-md-6 col-sm-6 col-xs-6 form-right form-left">
+                        <label style="color:white;font-weight:bold;">Category</label>
+
+                        <select name="category">
+                            <option>Select Category</option>
+                           <option value="accessories">Accessories</option>
+                           <option value="air_Conditioning_Heating">Air Conditioning & Heating</option>
+                           <option value="belts">Belts </option>
+                           <option value="body_parts">Body Parts </option>
+                           <option value="brake_parts">Brake Parts </option>
+                           <option value="cables">Cables</option>
+                           <option value="electrical_components">Electrical Components</option>
+                           <option value="engine_parts">Engine Parts</option>
+                           <option value="exhaust_system">Exhaust System </option>
+                           <option value="filters">Filters </option>
+                           <option value="fuel_supply_system">Fuel Supply System </option>
+                           <option value="interior_parts">Interior Parts</option>
+                           <option value="lights">Lights </option>
+                           <option value="lubricants">Lubricants </option>
+                           <option value="music_system">Music System </option>
+                           <option value="steering_system">Steering System</option>
+                           <option value="suspension_parts">Suspension Parts</option>
+                           <option value="transmission_system">Transmission System </option>
+                           <option value="trims">Trims</option>
+                           <option value="wheel_drive">Wheel Drive</option>
+
+
+                        </select>
+                     </div>
+                     <div class="col-md-6 col-sm-6 col-xs-6 form-right ">
+                        <label style="color:white;font-weight:bold;">Product Name</label>
+                        <select name="pname">
+                            <option>Select Product Name</option>
+                           <option value="body_cover_mats">Body Cover & Mats</option>
+                           <option value="body_kit_mats">Body Kit & Mats</option>
+                           <option value="bumper_protector">Bumper Protector </option>
+                           <option value="catch_chrome">Catch Chrome</option>
+                           <option value="ac_compressor">AC Compressor</option>
+                           <option value="condenser">Condenser</option>
+                           <option value="cooling_heating">Cooling & Heating</option>
+                           <option value="alternator_belt">Alternator Belt</option>
+                           <option value="compressor_belt">Compressor Belt </option>
+                           <option value="bonnet">Bonnet  </option>
+                           <option value="cladding">Cladding </option>
+                           <option value="cowl_panel">Cowl Panel</option>
+                           <option value="engine_cover">Engine Cover </option>
+                           <option value="brake_booster">Brake Booster </option>
+                           <option value="drum_brake">Drum Brake </option>
+                           <option value="blower_cable">Blower Cable</option>
+                           <option value="air_supply">Air supply</option>
+                           <option value="cylinder_head">Cylinder Head</option>
+                           <option value="emission_control">Emission Control</option>
+                           <option value="air_filter">Air Filter</option>
+
+
+                        </select>
+                     </div>
+
+
+
+                       <div class="col-md-6 col-sm-6 col-xs-6 form-right ">
+
+                     </div>
+                     <input type="submit" value="SUBMIT" style="background-color:#ffc107;color:black;font-weight:bold;">
+                  </div>
+               </form>
+
+                <h3 class="title clr" style="color:#ffc107;font-weight:bold;">VIEW PRODUCT</h3>
+            <table id="customers">
+        <thead>
+        <tr class="warning">
+
+            <th>Wholesaler Name</th>
+            <th>Product Id</th>
+            <th>Vehicle Type</th>
+            <th>Brand Name</th>
+            <th>Category</th>
+            <th>Product Name</th>
+            <th>Price</th>
+
+
+            <th>Action</th>
+             <th>Product Image</th>
+
+
+
+
+
+
+
+
+        </tr>
+        </thead>
+        {% for o in search_list %}
+       <tbody>
+        <tr>
+
+             <td>{{o.wname}}</td>
+            <td>{{o.id}}</td>
+            <td>{{o.vehicle_type}}</td>
+            <td>{{o.brand_name}}</td>
+            <td>{{o.category}}</td>
+            <td>{{o.product_name}}</td>
+            <td>{{o.product_price}}</td>
+
+
+
+             <td><a href="{% url 'rbuy_product' o.id%}" style="color:black;text-decoration:underline;">Buy Product</a></td>
+
+            {% for o1 in imageview %}
+                 <td><img src="{{o1.product_image.url}}" class="img-thumbnail" alt="" width="200" height="200"></td>
+                 </tr>
+        {% endfor %}
+       </tbody>
+        {% endfor %}
+    </table>
+            </div>
+         </div>
+      </div>
+      <!--//contact -->
+      <!-- //Footer -->
+
+      <footer>
+         <p>A Cooperative Distributed Model Predictive Control Approach to Supply Chain Management</p>
+      </footer>
+      <!-- //Footer -->
+
+      <!--js working-->
+      <script src="{% static 'js/jquery-2.2.3.min.js' %}"></script>
+      <!--//js working-->
+      <!-- carousal service slider-->
+      <script src="{% static 'js/slick.js' %}"></script>
+      <script>
+         $(document).on('ready', function() {
+           $(".center").slick({
+         	dots: true,
+         	infinite: true,
+         	centerMode: true,
+         	slidesToShow: 2,
+         	slidesToScroll: 2,
+         	responsive: [
+         		{
+         		  breakpoint: 768,
+         		  settings: {
+         			arrows: true,
+         			centerMode: false,
+         			slidesToShow: 2
+         		  }
+         		},
+         		{
+         		  breakpoint: 480,
+         		  settings: {
+         			arrows: true,
+         			centerMode: false,
+         			centerPadding: '40px',
+         			slidesToShow: 1
+         		  }
+         		}
+         	 ]
+           });
+         });
+      </script>
+      <!-- //carousal -->
+      <!--responsiveslides banner-->
+      <script src="{% static 'js/responsiveslides.min.js' %}"></script>
+      <script>
+         // You can also use "$(window).load(function() {"
+         $(function () {
+         	// Slideshow 4
+         	$("#slider4").responsiveSlides({
+         		auto: true,
+         		pager:true,
+         		nav: false,
+         		speed: 900,
+         		namespace: "callbacks",
+         		before: function () {
+         			$('.events').append("<li>before event fired.</li>");
+         		},
+         		after: function () {
+         			$('.events').append("<li>after event fired.</li>");
+         		}
+         	});
+
+         });
+      </script>
+      <!--// responsiveslides banner-->
+      <!--About OnScroll-Number-Increase-JavaScript -->
+      <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+      <script src="{% static 'js/jquery.countup.js' %}"></script>
+      <script>
+         $('.counter').countUp();
+      </script>
+      <!-- //OnScroll-Number-Increase-JavaScript -->
+      <!-- clients FlexSlider-JavaScript -->
+      <script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
+      <script>
+         $(window).load(function(){
+         $('.flexslider').flexslider({
+         	animation: "slide",
+         	start: function(slider){
+         		$('body').removeClass('loading');
+         	}
+         });
+         });
+      </script>
+      <!-- //clients FlexSlider-JavaScript -->
+      <!-- gallery-lightbox -->
+      <script src="{% static 'js/lsb.min.js' %}"></script>
+      <script>
+         $(window).load(function() {
+         	  $.fn.lightspeedBox();
+         	});
+      </script>
+      <!-- //gallery-lightbox -->
+      <!-- start-smoth-scrolling -->
+      <script src="{% static 'js/move-top.js' %}"></script>
+      <script src="{% static 'js/easing.js' %}"></script>
+      <script>
+         jQuery(document).ready(function ($) {
+         	$(".scroll").click(function (event) {
+         		event.preventDefault();
+         		$('html,body').animate({
+         			scrollTop: $(this.hash).offset().top
+         		}, 900);
+         	});
+         });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <!-- here stars scrolling icon -->
+      <script>
+         $(document).ready(function () {
+
+         	var defaults = {
+         		containerID: 'toTop', // fading element id
+         		containerHoverID: 'toTopHover', // fading element hover id
+         		scrollSpeed: 1200,
+         		easingType: 'linear'
+         	};
+
+
+         	$().UItoTop({
+         		easingType: 'easeOutQuart'
+         	});
+
+         });
+      </script>
+      <!-- //here ends scrolling icon -->
+      <!--bootstrap working-->
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <!-- //bootstrap working-->
+   </body>
+</html>
